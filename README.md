@@ -188,3 +188,4 @@ jupyter notebook notebooks/wine_quality_analysis.ipynb
 2. **Volatile Acidity hurts quality:** Excess acetic acid leads to unpleasant vinegar aromas.
 3. **Data Leakage Prevention:** Feature scaling (`StandardScaler`) was strictly fitted on the training split only, preserving true out-of-sample evaluation validity.
 4. **Ensemble Power:** Random Forest achieved an **ROC-AUC of 0.912**, proving strong discriminative capacity despite natural class imbalance.
+# Wine_Quality_ML_App
