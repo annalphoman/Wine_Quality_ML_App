@@ -1,0 +1,43 @@
+============================================================
+WINE QUALITY DATASET - EXPLORATORY DATA ANALYSIS REPORT
+============================================================
+
+1. DATASET DIMENSIONS:
+   - Red Wine Samples:   1599 rows, 13 columns
+   - White Wine Samples: 4898 rows, 13 columns
+   - Combined Samples:   6497 rows, 13 columns
+
+2. DATA INTEGRITY & QUALITY:
+   - Missing Values: 0 across all columns (Dataset is complete)
+   - Duplicate Rows: Red: 240, White: 937, Combined: 1177
+
+3. QUALITY SCORE DISTRIBUTION (Combined):
+   - Quality 3:    30 samples ( 0.46%)
+   - Quality 4:   216 samples ( 3.32%)
+   - Quality 5:  2138 samples (32.91%)
+   - Quality 6:  2836 samples (43.65%)
+   - Quality 7:  1079 samples (16.61%)
+   - Quality 8:   193 samples ( 2.97%)
+   - Quality 9:     5 samples ( 0.08%)
+
+4. TOP CORRELATIONS WITH QUALITY:
+   (Calculated on combined dataset)
+   - alcohol               : +0.4443
+   - citric acid           : +0.0855
+   - free sulfur dioxide   : +0.0555
+   - sulphates             : +0.0385
+   - pH                    : +0.0195
+   - residual sugar        : -0.0370
+   - total sulfur dioxide  : -0.0414
+   - fixed acidity         : -0.0767
+   - chlorides             : -0.2007
+   - volatile acidity      : -0.2657
+   - density               : -0.3059
+
+5. KEY INSIGHTS:
+   - Alcohol has the strongest positive correlation with quality (+0.44).
+   - Density (-0.31) and Volatile Acidity (-0.27) have strong negative correlations.
+   - High volatile acidity is associated with vinegar-like taste, lowering ratings.
+   - Quality scores are predominantly clustered around 5 and 6 (82.5% of samples).
+   - High quality wines (score >= 7) make up ~19.6% of the data.
+============================================================
